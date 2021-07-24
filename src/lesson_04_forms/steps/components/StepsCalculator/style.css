@@ -1,0 +1,26 @@
+html, body, #root {
+  height: 100%;
+}
+
+.main_1 {
+  border: 10px black;
+  border-radius: 15px;
+  background-color: #FADADB;
+  height: 100%;
+}
+
+.main {
+  display: grid;
+
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+}
+
+.input {
+  border: 10px;
+  border-radius: 15px;
+  padding: 10px;
+ }
