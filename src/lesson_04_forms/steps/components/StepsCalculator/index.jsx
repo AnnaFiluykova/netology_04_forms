@@ -70,10 +70,22 @@ const Calendar = () => {
 
         <form className='table-row' onSubmit={onSubmitForm}>
           <div>
-            <input onChange={handleChangeDate} value={date} className='input' name='date' placeholder='напиши дату, тварь' />
+            <input
+              onChange={handleChangeDate}
+              value={date}
+              className='input'
+              name='date'
+              placeholder='Напишите дату'
+            />
           </div>
           <div>
-            <input onChange={handleChangeDistance} value={distance} className='input' name='distance' />
+            <input
+              onChange={handleChangeDistance}
+              value={distance}
+              className='input'
+              name='distance'
+              placeholder='Напишите дистанцию'
+            />
           </div>
           <div>
             <button type='submit' className='input'>ОК</button>
