@@ -18,7 +18,7 @@ const ColorConverter = () => {
     const { value } = e.target;
     setInputValue(value);
 
-    if (value.length === 7) {
+    if (value.length >= 7) {
       if (/^#[0-9A-F]{6}$/i.test(value)) {
         setResult(hexToRgb(value));
         setBgColor(value);

@@ -39,10 +39,10 @@ const Calendar = () => {
     } else {
       newArray.push({ date, distance: Number(distance) });
       newArray.sort(compareNumeric);
-      setDate('');
-      setDistance('');
     }
 
+    setDate('');
+    setDistance('');
     setList(newArray);
   }
 
