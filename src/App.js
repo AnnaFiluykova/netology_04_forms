@@ -1,9 +1,13 @@
-import App from './lesson_04_forms/hex2rgb/components/ColorConverter';
-// import App from './lesson_04_forms/steps/components/StepsCalculator';
+import { Fragment } from 'react';
+import ColorConverter from './lesson_04_forms/hex2rgb/components/ColorConverter';
+import StepsCalculator from './lesson_04_forms/steps/components/StepsCalculator';
 
 const Root = () => {
   return (
-    <App />
+    <Fragment>
+      <ColorConverter />
+      <StepsCalculator />
+    </Fragment>
   );
 }
 
